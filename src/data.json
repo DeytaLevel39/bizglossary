@@ -1,0 +1,17 @@
+{
+"columns": [
+		{"label":"Keyword", "field":"keyword", "sort":"asc", "width":100},
+		{"label":"Type", "field":"type", "sort":"asc", "width":100},
+		{"label":"Description", "field":"description", "sort":"asc", "width":300}
+	],
+"rows": [
+		{"keyword":"Vehicle","type":"Entity","description":"A wheeled method of transport designed to transport people or goods"},
+                {"keyword":"Make","type":"Attribute","description":"A vehicle manufacturers marketing brand for the company andor all of the vehicles that it manufactures"},
+                {"keyword":"Party","type":"Entity","description":"An organisation or individual"},
+                {"keyword":"Contract","type":"Entity","description":"A legal agreement between 2 or more parties"},
+                {"keyword":"Buyer","type":"Entity","description":"A party who has agreed a loan agreement to purchase 1 or more vehicles"},
+                {"keyword":"Leaser","type":"Entity","description":"A party who has agreed a lease agreement to lease 1 or more vehicles"},
+                {"keyword":"Model","type":"Attribute","description":"A vehicle manufacturers marketing brand for a range of vehicles that have a similar specification"},
+		{"keyword":"Data Architect","type":"Entity","description":"A person employed to design database systems"}
+	]
+}
